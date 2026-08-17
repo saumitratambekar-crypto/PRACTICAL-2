@@ -27,3 +27,5 @@ VALUES
 ('ENR010', 'Karan', 'IT', 2, 84, 81, 79, 87, 90, 421, 84.20);
 
 SELECT * FROM student_marksheet;
+
+This SQL code creates a detailed table called student_marksheet to store academic records of students. The table includes columns for enrollment number (set as the primary key to uniquely identify each student), student name, branch, semester, and marks in five subjects: maths, physics, chemistry, programming, and electronics. It also has columns for the total marks obtained and the percentage, which is stored as a decimal value with two digits after the decimal point. After defining the structure, the code inserts ten sample records for different students across branches like CSE, ECE, and IT, each with their subject-wise marks, total, and percentage. Finally, the SELECT * FROM student_marksheet; query retrieves and displays all the rows from the table, showing the complete marksheet data for every student entered. In short, this script builds a comprehensive student marksheet database and populates it with realistic sample entries for easy analysis and retrieval.
